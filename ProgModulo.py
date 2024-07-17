@@ -18,6 +18,6 @@ def modulo(a, n):
     
 print ("a " + '\u2261' + " b (mod n)")
 n= int(input("n? "))
-a= int(input ("a? "))
+a= int(input ("b? "))
 print
 print (f"{a} (mod {n}) \u2261 {modulo(a,n)}")
